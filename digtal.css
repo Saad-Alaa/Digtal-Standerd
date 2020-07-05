@@ -1,0 +1,780 @@
+    /*Start Global Rulez*/
+    
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    /*end Global Rulez*/
+    /*start reach-us*/
+    
+    .reach-us {
+        padding-top: 12px;
+    }
+    .reach-us p {
+        color: #777777;
+        font-size: 15px;
+    }
+    .reach-us .btn {
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .reach-us .icon {
+        padding-right: 5px;
+        color: #f4793f;
+    }
+    .reach-us .alt i {
+        transform: rotate(90deg);
+    }
+    .top {
+        margin-top: -9px;
+    }
+    .btn-group>.btn-group:not(:first-child),
+    .btn-group>.btn:not(:first-child) {
+        margin-left: -10px;
+    }
+    /*end reach-us*/
+    /*start overwriting on bootstrab navbar*/
+    
+    .navbar {
+        background-color: #f4793f;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #FFF;
+        margin-left: 3em;
+        font-family: 'Amiri', serif;
+        letter-spacing: .1em;
+        font-size: 1em;
+    }
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #FFF;
+    }
+    .hvr-underline-from-left:before {
+        background: #fff;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        border-bottom: .2em solid #fff;
+        color: #fff;
+        padding-bottom: 1px;
+    }
+    /*end overwriting on bootstrab navbar*/
+    /*Start nav*/
+    
+    .navbar {
+        border-radius: 0;
+        margin-top: 1em;
+    }
+    .navbar-light .navbar-brand {
+        height: 4em;
+        margin-top: -15px;
+    }
+    .navbar .shape {
+        clip-path: polygon(27% 0, 65% 0, 100% 0, 100% 0, 82% 76%, 16% 76%, 0 0, 0 0);
+        background-color: #fff;
+        height: 99px;
+        background-image: url(images/logo.png);
+        background-position: center .5em;
+        background-size: 9em;
+        background-repeat: no-repeat;
+    }
+    /*   clip-path: polygon(27% 0, 65% 0, 100% 0, 100% 0, 75% 76%, 24% 76%, 0 0, 0 0);*/
+    /*end nav*/
+    /*start carousel*/
+    
+    .carousel-caption {
+        position: absolute;
+        bottom: 12em;
+    }
+    .carousel-caption h3 {
+        font-family: 'Amiri', serif;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .carousel-caption p {
+        font-family: 'Cabin Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+    }
+    .carousel-caption .line {
+        width: 20%;
+        height: .1em;
+        background-color: #d77848;
+    }
+    .carousel-caption .read {
+        margin-top: 2em;
+        font-size: large;
+        border-radius: 50px;
+        text-transform: capitalize;
+        font-family: 'Amiri', serif;
+        background-color: #f4793f;
+        border: none;
+        color: #FFF;
+    }
+    .carousel-caption .read:focus {
+        outline: none;
+    }
+    .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        background-color: #383838;
+    }
+    .carousel-indicators .active {
+        background-color: #d77848;
+    }
+    /*end carousel*/
+    /*start about*/
+    
+    .about-us {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .about-us h2 {
+        font-family: 'Amiri', serif;
+        font-size: 42px;
+        text-align: center;
+        color: #f4793f;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .about-us .lead {
+        color: #777777;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .about-us .contact {
+        letter-spacing: 1px;
+        margin-top: 2em;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 50px;
+        text-transform: capitalize;
+        font-family: 'Amiri', serif;
+        background-color: #FFF;
+        border: 1px solid #777777;
+        color: #777777;
+    }
+    /*end about*/
+    /*start sectore*/
+    
+    .sectore {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: relative;
+        background-color: #fafafa;
+    }
+    .sectore h2 {
+        font-family: 'Amiri', serif;
+        font-size: 42px;
+        text-align: center;
+        color: #f4793f;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .sectore .line {
+        width: 10%;
+        height: .1em;
+        background-color: #d77848;
+    }
+    /*over writeing on slick*/
+    
+    .sectore .item {
+        width: 100%;
+        display: inline-block
+    }
+    .sectore .item .card {
+        width: 90%;
+    }
+    .slick-next {
+        right: 0px;
+    }
+    .slick-prev {
+        left: -44px;
+        top: 51%;
+    }
+    .slick-prev:before,
+    .slick-next:before {
+        font-family: 'slick';
+        font-size: 30px;
+        opacity: .75;
+        color: #474747;
+    }
+    .sectore .card-title {
+        font-family: 'Amiri', serif;
+        text-align: center;
+        color: #6d6d6d;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .sectore .card-text {
+        color: #777777;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .sectore .card-body .read {
+        letter-spacing: 1px;
+        margin-top: 2em;
+        border-radius: 50px;
+        text-transform: capitalize;
+        font-family: 'Amiri', serif;
+        background-color: #FFF;
+        border: 1px solid #777777;
+        color: #777777;
+        transition: all 1s ease;
+    }
+    .sectore .card-body:hover .read {
+        background-color: #f4793f;
+        color: #FFF;
+    }
+    .top {
+        margin-top: 3em;
+    }
+    /*End sectore*/
+    /*start news*/
+    
+    .news {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: relative;
+    }
+    .news h2 {
+        font-family: 'Amiri', serif;
+        font-size: 42px;
+        text-align: center;
+        color: #f4793f;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .news .line {
+        width: 10%;
+        height: .1em;
+        background-color: #d77848;
+    }
+    /*over writeing on slick*/
+    
+    .news .item {
+        width: 100%;
+        display: inline-block
+    }
+    .news .item .card {
+        width: 90%;
+    }
+    .news .card-title {
+        font-family: 'Amiri', serif;
+        text-align: center;
+        color: #6d6d6d;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .news .card-text {
+        color: #777777;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .news .card-body .read {
+        letter-spacing: 1px;
+        margin-top: 2em;
+        border-radius: 50px;
+        text-transform: capitalize;
+        font-family: 'Amiri', serif;
+        background-color: #FFF;
+        border: 1px solid #777777;
+        color: #777777;
+        transition: all 1s ease;
+    }
+    .news .card-body:hover .read {
+        background-color: #f4793f;
+        color: #FFF;
+    }
+    /*End news*/
+    /*Start our clients*/
+    
+    .our-clients {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: relative;
+        background-color: #fafafa;
+    }
+    .our-clients h2 {
+        font-family: 'Amiri', serif;
+        font-size: 42px;
+        text-align: center;
+        color: #f4793f;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .our-clients .line {
+        width: 10%;
+        height: .1em;
+        background-color: #d77848;
+    }
+    .our-clients ul .top {
+        margin-top: 2em;
+    }
+    .our-clients .gallery-item {
+        width: 60%;
+    }
+    .our-clients .image1 {
+        width: 11em;
+        height: 5em;
+        margin-left: 3em;
+        margin-top: 4em;
+        background-image: url(images/client-3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+    .our-clients .image2 {
+        width: 11em;
+        height: 8em;
+        margin-left: 3em;
+        margin-top: 2em;
+        background-image: url(images/client-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .our-clients .image3 {
+        width: 11em;
+        height: 8em;
+        margin-left: 3em;
+        margin-top: 2em;
+        background-image: url(images/client-1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+    .our-clients .image4 {
+        width: 11em;
+        height: 10em;
+        margin-left: 3em;
+        margin-top: 2em;
+        background-image: url(images/client-4.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+    .our-clients .image5 {
+        width: 11em;
+        height: 5em;
+        margin-left: 3em;
+        margin-top: 4em;
+        background-image: url(images/client-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .our-clients .image6 {
+        width: 11em;
+        height: 8em;
+        margin-left: 3em;
+        margin-top: 2em;
+        background-image: url(images/client-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    /*End our clients*/
+    /*    Start Footer*/
+    
+    .bg {
+        width: 100%;
+        background-image: url(images/footer.jpg);
+        background-size: cover;
+        background-position: left top;
+        background-repeat: no-repeat;
+        z-index: -1;
+        position: relative;
+    }
+    .bg::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #06060691;
+        top: 0;
+    }
+    .head h5 {
+        letter-spacing: .1em;
+        color: #cbd0d3;
+        font-family: 'Amiri', serif;
+        margin-bottom: 0;
+    }
+    .head .line {
+        width: 45%;
+        height: .1em;
+        margin-left: 0;
+        background-color: #d77848;
+    }
+    .head .lead {
+        color: #cbd0d3;
+        font-size: 15px;
+        font-weight: 200;
+        cursor: pointer;
+    }
+    .form-control {
+        background-color: #ffffff0a;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+    .form-control:focus {
+        outline: 0 !important;
+        border-color: initial;
+        box-shadow: none;
+    }
+    .input-group-append .btn,
+    .input-group-prepend .btn {
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    footer .iso {
+        height: 5em;
+    }
+    footer .iso .image {
+        background-image: url(images/Image-from-iOS.png);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        height: 4em;
+    }
+    footer .icons {
+        text-align: center;
+    }
+    footer .icons span {
+        color: #ffffff;
+        padding: .3em;
+    }
+    footer .icons span:hover {
+        color: #f4793f;
+    }
+    .footer-copyright {
+        height: 4em;
+        background-color: #333333;
+    }
+    .footer-copyright .lead {
+        color: #cbd0d3;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer-copyright .lead span {
+        color: #f4793f;
+    }
+    /*End footer*/
+    
+    .btn.focus,
+    .btn:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .center {
+        width: 100%;
+        height: 1em;
+    }
+    /*// Extra small devices (portrait phones, less than 576px)*/
+    
+    @media (max-width: 575.98px) {
+        .reach-us p {
+            font-size: 14px;
+        }
+        .reach-us .btn-group .btn {
+            font-size: 14px;
+        }
+        .navbar {
+            padding: 0;
+        }
+        .navbar-light .navbar-toggler {
+            border: none;
+            margin-right: .5em;
+        }
+        .navbar-light .navbar-brand {
+            height: 3em;
+        }
+        .navbar .shape {
+            height: 67px;
+            background-size: 6em;
+            width: 8em;
+        }
+        .carousel-caption {
+            position: absolute;
+            top: -7px;
+        }
+        .carousel-caption h3 {
+            font-size: 20px;
+        }
+        .carousel-caption p {
+            font-weight: 400;
+            font-size: 10px;
+            margin-bottom: .5em;
+        }
+        .carousel-caption .line {
+            margin-top: 0;
+            margin-bottom: .2em;
+        }
+        .carousel-caption .read {
+            margin-top: .4em;
+            font-size: 11px;
+        }
+        .carousel-indicators {
+            bottom: -26px;
+        }
+        .carousel-indicators li {
+            width: 10px;
+            height: 10px;
+        }
+        .about-us h2 {
+            font-size: 27px;
+        }
+        .about-us .lead {
+            font-size: 13px;
+        }
+        .about-us .contact {
+            font-size: 18px;
+        }
+        .sectore .card {
+            margin-bottom: 15px;
+            margin-left: 1.1em;
+        }
+        .sectore .card-body .read {
+            margin-top: 0
+        }
+        .news .card-body .read {
+            margin-top: 0
+        }
+        .news .card {
+            margin-bottom: 15px;
+            margin-left: 1.1em;
+        }
+        .slick-arrow {
+            z-index: 9999;
+        }
+        .slick-prev {
+            left: -15px;
+        }
+        .slick-next {
+            right: -5px;
+        }
+        footer .iso .image {
+            background-position: top left;
+        }
+        footer .icons {
+            text-align: left;
+        }
+    }
+    /*// Small devices (landscape phones, less than 768px)*/
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .navbar {
+            padding: 0;
+        }
+        .navbar-light .navbar-brand {
+            height: 3em;
+            width: 50%;
+        }
+        .navbar-light .navbar-toggler {
+            border: none;
+            margin-right: .5em;
+        }
+        .navbar .shape {
+            height: 60px;
+            background-size: 6em;
+        }
+        .carousel-caption {
+            position: absolute;
+            bottom: 3em;
+        }
+        .carousel-caption h3 {
+            font-size: 25px;
+        }
+        .carousel-caption p {
+            font-weight: 400;
+            font-size: 12px;
+        }
+        .carousel-caption .line {
+            margin-top: 0;
+            margin-bottom: .5em;
+        }
+        .carousel-caption .read {
+            margin-top: 0;
+            font-size: 14px;
+        }
+        .carousel-indicators {
+            bottom: -20px;
+        }
+        .about-us h2 {
+            font-size: 33px;
+        }
+        .about-us .lead {
+            font-size: 15px;
+        }
+        .about-us .contact {
+            font-size: 18px;
+        }
+        .sectore .card {
+            margin-bottom: 15px;
+            margin-left: .9em;
+        }
+        .card-body {
+            padding: 0;
+            padding-bottom: 1em;
+        }
+        .sectore .card-body .read {
+            margin-top: 1em
+        }
+        .news .card-body {
+            margin-top: 1em;
+        }
+        .news .card-deck .card {
+            margin-bottom: 15px;
+            margin-left: .9em;
+        }
+        .slick-next {
+            right: -20px;
+        }
+        .slick-prev {
+            left: -35px;
+        }
+        footer .iso .image {
+            background-position: top left;
+        }
+        footer .icons {
+            text-align: left;
+        }
+    }
+    /*// Medium devices (tablets, less than 992px)*/
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .reach-us p {
+            font-size: 13px;
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+        .navbar {
+            margin-top: 5px;
+            padding: 0;
+        }
+        .navbar-light .navbar-brand {
+            height: 3.5em;
+            margin-top: -14px;
+        }
+        .navbar-light .navbar-toggler {
+            border: none;
+            margin-right: .5em;
+        }
+        .navbar .shape {
+            height: 80px;
+            background-size: 7em;
+        }
+        .carousel-caption {
+            position: absolute;
+            bottom: 1em;
+        }
+        .carousel-caption .line {
+            left: 13em;
+        }
+        .carousel-indicators {
+            bottom: -16px;
+        }
+        .carousel-caption h3 {
+            font-size: 35px;
+        }
+        .carousel-caption p {
+            font-size: 16px;
+        }
+        .about-us h2 {
+            font-size: 37px;
+        }
+        .about-us .lead {
+            font-size: 15px;
+        }
+        .about-us .contact {
+            font-size: 19px;
+            font-weight: 800;
+        }
+        .sectore .card-image {
+            height: 15em;
+        }
+        .sectore .card-body {
+            padding: 0;
+        }
+        .sectore .card-body .card-title {
+            font-size: 18px;
+        }
+        .sectore .card-text {
+            font-size: 13px;
+        }
+        .sectore .card-body .read {
+            margin-bottom: .5em;
+            margin-top: 0;
+            width: 75%;
+        }
+        .news .card-image {
+            height: 15em;
+        }
+        .news .card-body {
+            padding: 0;
+        }
+        .news .card-body .card-title {
+            font-size: 18px;
+        }
+        .news .card-text {
+            font-size: 13px;
+        }
+        .news .card-body .read {
+            margin-bottom: .5em;
+            margin-top: 0;
+            width: 75%;
+            padding: .5em;
+        }
+        .our-clients .prev {
+            position: absolute;
+            top: 3em;
+            left: -1em;
+        }
+        .our-clients .next {
+            position: absolute;
+            top: 3em;
+            right: -1em;
+        }
+        footer .iso .image {
+            background-position: top left;
+        }
+        footer .icons {
+            text-align: left;
+        }
+    }
+    /*// Large devices (desktops, less than 1200px)*/
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        /* navbar*/
+        .navbar-light .navbar-nav .nav-link {
+            margin-left: 1em;
+        }
+        .navbar .shape {
+            height: 70px;
+            background-size: 7em;
+            background-position: center top;
+        }
+        .carousel-caption {
+            position: absolute;
+            bottom: 5em;
+        }
+        .carousel-caption .line {
+            left: 18em;
+        }
+        .our-clients .prev {
+            position: absolute;
+            top: -4em;
+            left: 1em;
+        }
+        .our-clients .next {
+            right: 1em;
+            top: -4em;
+        }
+        .our-clients .line {
+            left: 29em;
+        }
+    }

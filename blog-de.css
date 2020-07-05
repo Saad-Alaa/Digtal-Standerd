@@ -1,0 +1,437 @@
+    /*Start Global Rulez*/
+    
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    body {
+        height: 2000px;
+    }
+    /*end Global Rulez*/
+    /*start reach-us*/
+    
+    .reach-us {
+        padding-top: 12px;
+    }
+    .reach-us p {
+        color: #777777;
+        font-size: 15px;
+    }
+    .reach-us .language {
+        float: right;
+    }
+    .reach-us .icon {
+        padding-right: 5px;
+        color: #f4793f;
+    }
+    .reach-us .alt i {
+        transform: rotate(90deg);
+    }
+    .top {
+        margin-top: -9px;
+    }
+    .btn-group>.btn-group:not(:first-child),
+    .btn-group>.btn:not(:first-child) {
+        margin-left: -10px;
+    }
+    /*end reach-us*/
+    /*start overwriting on bootstrab navbar*/
+    
+    .navbar {
+        background-color: #f4793f;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #FFF;
+        margin-left: 3em;
+        font-family: 'Amiri', serif;
+        letter-spacing: .1em;
+        font-size: 18px;
+    }
+    .navbar-light .navbar-nav .nav-link:focus,
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #FFF;
+    }
+    .hvr-underline-from-left:before {
+        background: #fff;
+    }
+    /*end overwriting on bootstrab navbar*/
+    /*Start nav*/
+    
+    .navbar {
+        border-radius: 0;
+        margin-top: 1em;
+    }
+    .navbar-light .navbar-brand {
+        height: 4em;
+        margin-top: -15px;
+    }
+    .navbar .shape {
+        clip-path: polygon(27% 0, 65% 0, 100% 0, 100% 0, 75% 76%, 24% 76%, 0 0, 0 0);
+        background-color: #fff;
+        width: 85%;
+        height: 125px;
+        background-image: url("images/logo.png");
+        background-position: center top;
+        background-size: 9em;
+        background-repeat: no-repeat;
+    }
+    /*end nav*/
+    /*start slider*/
+    
+    .my-slider {
+        width: 100%;
+        height: 32em;
+        position: relative;
+    }
+    .my-slider .back-image {
+        background-image: url(images/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+    .my-slider .caption {
+        width: 100%;
+        position: absolute;
+        top: 12em;
+    }
+    .my-slider h3 {
+        font-family: 'Amiri', serif;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #FFF;
+        letter-spacing: .1em;
+    }
+    .my-slider .line {
+        width: 20%;
+        height: .1em;
+        background-color: #d77848;
+    }
+    .my-slider .clip {
+        clip-path: polygon(0 50%, 74% 50%, 94% 100%, 0% 100%);
+        background-color: #fff;
+        position: absolute;
+        height: 99px;
+        bottom: 0em;
+    }
+    .my-slider .clip .end {
+        position: absolute;
+        bottom: .5em;
+        left: 4em;
+    }
+    .my-slider .clip .end a {
+        color: #6d6d6d;
+        font-family: 'Amiri', serif;
+        letter-spacing: .1em;
+        font-weight: 500;
+        padding: .5em;
+        text-decoration: none;
+    }
+    /*end slider*/
+    /*start article*/
+    
+    .article {
+        width: 100%;
+        position: relative;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .article .article-image {
+        background-image: url(images/bg3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 65%;
+        height: 30em;
+        z-index: -1;
+        margin: auto;
+    }
+    .article .content .lead {
+        color: #6d6d6d;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    .article .date {
+        padding-left: 12px;
+    }
+    .article .date p {
+        color: #6d6d6d;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    /*end 
+    /*end aricle*/
+    /*    Start Footer*/
+    
+    .bg {
+        width: 100%;
+        background-image: url(images/footer.jpg);
+        background-size: cover;
+        background-position: left top;
+        background-repeat: no-repeat;
+        z-index: -1;
+        position: relative;
+    }
+    .bg::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #06060691;
+        top: 0;
+    }
+    .head h5 {
+        letter-spacing: .1em;
+        color: #cbd0d3;
+        font-family: 'Amiri', serif;
+        margin-bottom: 0;
+    }
+    .head .line {
+        width: 45%;
+        height: .1em;
+        margin-left: 0;
+        background-color: #d77848;
+    }
+    .head .lead {
+        color: #cbd0d3;
+        font-size: 15px;
+        font-weight: 200;
+        cursor: pointer;
+    }
+    .form-control {
+        background-color: #ffffff0a;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+    .form-control:focus {
+        outline: 0 !important;
+        border-color: initial;
+        box-shadow: none;
+    }
+    .input-group-append .btn,
+    .input-group-prepend .btn {
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    footer .iso {
+        height: 5em;
+    }
+    footer .iso .image {
+        background-image: url(images/Image-from-iOS.png);
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        height: 4em;
+    }
+    footer .icons {
+        text-align: center;
+    }
+    footer .icons span {
+        color: #ffffff;
+        padding: .3em;
+    }
+    footer .icons span:hover {
+        color: #f4793f;
+    }
+    .footer-copyright {
+        height: 4em;
+        background-color: #333333;
+    }
+    .footer-copyright .lead {
+        color: #cbd0d3;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .footer-copyright .lead span {
+        color: #f4793f;
+    }
+    /*End footer*/
+    /*// Extra small devices (portrait phones,  575.98)*/
+    
+    @media (max-width: 575.98px) {
+        .reach-us p {
+            font-size: 14px;
+        }
+        .reach-us .btn-group .btn {
+            font-size: 15px;
+        }
+        .navbar {
+            padding: 0;
+        }
+        .navbar-light .navbar-toggler {
+            border: none;
+            margin-right: .5em;
+        }
+        .navbar-light .navbar-brand {
+            height: 3em;
+        }
+        .navbar .shape {
+            height: 67px;
+            background-size: 6em;
+            width: 8em;
+        }
+        /*-------------------------------------*/
+        .my-slider {
+            height: 11em;
+        }
+        .my-slider .caption {
+            position: absolute;
+            top: 1em;
+        }
+        .my-slider h3 {
+            font-size: 30px
+        }
+        .my-slider .clip {
+            height: 88px;
+            bottom: -1em;
+        }
+        .my-slider .clip .end {
+            bottom: 1em;
+            left: 2em;
+        }
+        .my-slider .clip .end a {
+            font-size: 11px;
+        }
+        /*        ----------------------------*/
+        .article .article-image {
+            height: 12em;
+            width: 60%;
+        }
+        footer .iso .image {
+            background-position: top left;
+        }
+        footer .icons {
+            text-align: left;
+        }
+    }
+    /* Small devices (landscape phones, 376px and up)*/
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .reach-us .call {
+            width: 69%;
+        }
+        .reach-us .time {
+            width: 30%;
+        }
+        .reach-us .mail {
+            width: 56%;
+        }
+        .reach-us .language {
+            width: 44%;
+        }
+        .navbar-light .navbar-brand {
+            height: 3em;
+            width: 50%;
+        }
+        .navbar .shape {
+            width: 100%;
+            height: 62px;
+            background-size: 6em;
+        }
+        /*-------------------------------------*/
+        .my-slider {
+            height: 11em;
+        }
+        .my-slider .caption {
+            position: absolute;
+            top: 1em;
+        }
+        .my-slider h3 {
+            font-size: 30px
+        }
+        .my-slider .clip {
+            height: 88px;
+            bottom: 0em;
+        }
+        .my-slider .clip .end {
+            bottom: 1em;
+            left: 2em;
+        }
+        .my-slider .clip .end a {
+            font-size: 11px;
+        }
+        /*-----------------------------*/
+        .article .article-image {
+            height: 16em;
+            width: 72%;
+        }
+        footer .iso .image {
+            background-position: top left;
+        }
+        footer .icons {
+            text-align: left;
+        }
+    }
+    /*    // Medium devices (tablets, 768px and up)*/
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .reach-us p {
+            font-size: 10px;
+            margin-top: 13px;
+            margin-bottom: 0;
+        }
+        .navbar {
+            margin-top: 5px;
+        }
+        .navbar-light .navbar-brand {
+            height: 4em;
+            margin-top: -14px;
+        }
+        .navbar .shape {
+            width: 100%;
+            height: 80px;
+            background-size: 7em;
+        }
+        /*-------------------------------------------*/
+        .my-slider {
+            height: 21em;
+        }
+        .my-slider .caption {
+            top: 5em;
+        }
+        .my-slider .clip {
+            bottom: 0em;
+        }
+        /*-------------------------------------------*/
+        .article .article-image {
+            height: 20em;
+        }
+        footer .iso .image {
+            background-position: top left;
+        }
+        footer .icons {
+            text-align: left;
+        }
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        /* navbar*/
+        .navbar-light .navbar-nav .nav-link {
+            margin-left: 1em;
+        }
+        .navbar .shape {
+            width: 100%;
+            height: 90px;
+            background-size: 7em;
+            background-position: center center;
+        }
+        /*-------------------------------------------- */
+        .my-slider {
+            height: 27em;
+        }
+        .my-slider .caption {
+            top: 8em;
+        }
+        .my-slider .clip {
+            bottom: -1em;
+        }
+        /*-------------------------------------------- */
+        footer .iso .image {
+            background-position: top left;
+        }
+        footer .icons {
+            text-align: left;
+        }
+    }
